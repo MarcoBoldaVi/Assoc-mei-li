@@ -1,14 +1,10 @@
-#carousel{
-    margin: -20px -30px 0px -30px;
+/*
+body{
+    background-image: url(../_imagens/poster_1_beneficios_fundo.jpg);
+    background-size: cover;
 }
-
-#carousel img{
-
-
-}
-
+*/
 .color_gradiente{
-    /* background-color: rgba(3, 3, 3, 0.72); */
     background: -webkit-linear-gradient(95deg, rgba(29, 29, 29, 0.91), rgba(216, 188, 168, 0.29)) !important;
     background: -o-linear-gradient(95deg, rgba(29, 29, 29, 0.91), rgba(216, 188, 168, 0.29))!important;
     background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.57)) !important;    
@@ -17,5 +13,91 @@
     width: 80px;
 }
 #page-top{
-    margin-top: 110px;
+    margin-top: 11.5vh;
+}
+nav{
+    opacity: 0.95;
+}
+#conteudo{
+    background-color: rgba(95, 94, 94, 0.94);
+    height: 83.4vh;
+}
+.border-style{
+    border: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 0, 0, 0.74);
+}
+
+.modal_border{
+  width: 300px;
+  border-right: 1px solid rgba(30, 144, 255, 0.03);
+  position: relative;
+  padding: 0px;
+}
+
+.modal_border:after {
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 300px;
+  left: -2px;
+  top: 200px;
+  background: rgba(255, 0, 0, 0.74);
+}
+
+
+#modal_1{
+    background-image: url(../_imagens/poster_1_beneficios_fundo.jpg);
+    background-size: cover;
+}
+#modal_1:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+/*    display: "Tai Chi Chuan Yang Simplificado"; */ 
+}
+#modal_1_texto{    
+    margin-top: 400px;
+    padding:10px;
+    font-family:Arial;
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition: opacity .2s linear;
+    background-color:rgba(0,0,0,.7);
+}
+#modal_1:hover #modal_1_texto{
+    opacity: 1;
+}
+
+#modal_2{
+    background-image: url(../_imagens/poster_1_beneficios_fundo.jpg);
+    background-size: cover;
+
+}
+#modal_2:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    content: "Tai Chi chuan Yang tradicional";
+}
+
+#modal_3{
+    background-image: url(../_imagens/poster_1_beneficios_fundo.jpg);
+    background-size: cover;
+}
+#modal_3:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    content: "Kung Fu wushu moderno Mãos do Norte";
+}
+
+#modal_4{
+    background-image: url(../_imagens/poster_1_beneficios_fundo.jpg);
+    background-size: cover;
+}
+#modal_4:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    content: "Kung Fu Fei Hok Phai estilo tradicional Mãos do Sul";
 }
