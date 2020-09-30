@@ -53,14 +53,14 @@ nav{
     transition-duration: 1s;
 }
 
-.bgImg:hover{
-    transform: scale(1.05);
-    transition-duration: 1s;
-}
-
 .modalidades{
     position: relative;
     overflow: hidden;
+}
+
+#modal_1:nth-child(1):hover .bgImg{
+    transform: scale(1.05);
+    transition-duration: 1s;
 }
 
 #modal_1:before{
@@ -84,10 +84,15 @@ nav{
     transition: opacity 1s ;
     opacity: 1;
 }
+
 .bgImg1{
     background-image: url(../_imagens/poster_1_beneficios.jpg);
 }
 
+#modal_2:nth-child(2):hover .bgImg{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
 #modal_2:before{
     opacity: 0;
     content: 'Tai Chi chuan Yang tradicional';
@@ -113,8 +118,10 @@ nav{
     background-image: url(../_imagens/Poster_2_n_pare.jpg);
 }
 
-
-
+#modal_3:nth-child(3):hover .bgImg{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
 
 #modal_3:before{
     opacity: 0;
@@ -143,6 +150,11 @@ nav{
     background-image: url(../_imagens/poster_3.png);
 }
 
+#modal_4:nth-child(4):hover .bgImg{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
 #modal_4:before{
     opacity: 0;
     content: "Kung Fu Fei Hok Phai estilo tradicional Mãos do Sul";
@@ -168,5 +180,34 @@ nav{
     background-image: url(../_imagens/poster_1_beneficios_fundo.jpg);
 }
 
+#modal_5:nth-child(5):hover .bgImg{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+#modal_5:before{
+    opacity: 0;
+    content: "Lian Gong 18 Terapias";
+    margin-top: 50%;
+    margin-left: 5%;
+    width: 90%;
+    height: 250px;
+    position: absolute;
+    padding:10px;
+    padding-top: 50px;
+    font-family:Arial;
+    text-align:center;
+    color:white;
+    background-color:rgba(5, 5, 5, 0.3);
+    z-index: 1;
+    transition: all 1s;
+}
+#modal_5:hover:before{
+    transition: opacity 1s ;
+    opacity: 1;
+}
+.bgImg5{
+    background-image: url(../_imagens/Poster_2_n_pare.jpg);
+}
 /* DIV 1  fim */
 
