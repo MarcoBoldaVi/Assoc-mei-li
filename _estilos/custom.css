@@ -13,6 +13,9 @@
 nav{
     opacity: 0.95;
 }
+.navbar, footer{
+    background: radial-gradient(circle, rgba(6,5,2, .9) 0%, rgba(6,5,2, .9) 80%, rgba(126,125,133, .9));
+}
 #conteudo{
     background-color: rgba(95, 94, 94, 0.94);
     height: 83.4vh;
@@ -51,7 +54,6 @@ nav{
     background-size: cover;
     opacity: 1;
     transition-duration: 1s;
-    
 }
 
 .modalidades{
